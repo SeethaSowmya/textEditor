@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import BsTypeBold from 'react-icons/bs'
+import BiBold from 'react-icons/bi'
 import {Container, MainContainer} from './styledComponents'
 
 class Display extends Component {
@@ -7,7 +7,7 @@ class Display extends Component {
     return (
       <Container>
         <MainContainer>
-          <BsTypeBold />
+          <BiBold />
         </MainContainer>
       </Container>
     )
